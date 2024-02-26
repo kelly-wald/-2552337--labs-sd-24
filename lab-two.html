@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+<style>
+ #head-bar{
+  
+background-color: black;
+ }
+ 
+#h1-head{
+  color: white ;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10;
+}
+
+
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      
+    }
+
+    nav ul li {
+      margin-left: 10px;
+      color: white;
+     display: flex;
+    }
+
+    #mid {
+      text-align: center;
+    }
+
+    .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+
+.image-wrapper {
+  box-sizing: border-box;
+  flex: 0 0 10%;
+  text-align: center;
+  border: 1px solid black;
+  
+  float: left;
+  width: 50%;
+}
+
+.image-wrapper  {
+  max-width: 100%;
+  height: auto;
+}
+
+#endbar{
+  
+  background-color: black;
+  color: white ;
+  text-align: center;
+   }
+
+ #pic1{
+  text-align: center;
+ }  
+</style>
+
+
+<section >
+    <header id="head-bar">
+<h1 id="h1-head">Welcome to Software design</h1>
+
+<nav>
+    <ul>
+        <li>About Us</li>
+        <li>Services</li>
+        <li>Contact Us</li>
+    </ul>
+</nav>
+</header>
+
+</section>
+
+
+<article id="pic1">
+    
+        <h2>About Us</h2>
+        <h3>We are a company dedicated to providing excellent services to our customers</h3>
+   
+    <img src="barbie2023.jpeg" alt="Picture 1" width="600" height="400">
+</article>
+
+
+<h2 id="mid">Our Services</h2>
+
+
+<section class="image-container">
+
+
+<article class="image-wrapper">
+    
+        <h2>Web Development</h2>
+        <h3>We specialize in creating responsive and user-friendly websites.</h3>
+    <img src="barbie2023.jpeg" alt="Picture 2" width="600" height="400">
+</article>
+
+<article class="image-wrapper">
+   
+        <h2>Graphic design</h2>
+        <h3>Our talented designers can bring your ideas to life with stunning visuals.</h3>
+   
+    <img src="barbie2023.jpeg" alt="Picture 3" width="600" height="400">
+</article>
+</section>
+
+
+
+<footer id="endbar">&copy; 2024 The Lucky Company. All Rights Reserved</footer>
+</body>
+</html>
